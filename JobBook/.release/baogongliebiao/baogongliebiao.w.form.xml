@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<div xmlns="http://www.w3.org/1999/xhtml" component="$model/UI2/system/components/justep/window/window" design="device:m;" xid="window" class="window cvymiQv" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __cid="cvymiQv" components="$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/button/button,$model/UI2/system/components/justep/scrollView/scrollView,$model/UI2/system/components/justep/row/row,$model/UI2/system/components/justep/list/list,$model/UI2/system/components/justep/output/output,$model/UI2/system/components/justep/titleBar/titleBar,$model/UI2/system/components/justep/panel/child,$model/UI2/system/components/justep/data/data,$model/UI2/system/components/justep/window/window,$model/UI2/system/components/justep/panel/panel,">
+  <xhtml:style xmlns:xhtml="http://www.w3.org/1999/xhtml">null</xhtml:style>  
+  <div component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:'$model/UI2/system/components/justep/model/model'}" __cid="cvymiQv" class="cvymiQv"></div>  
+  <div component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full p23d7dbf6cf0c4fc8839e0dd6b2e7b456-iosstatusbar cvymiQv" xid="panel1" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="cvymiQv"> 
+    <div class="x-panel-top cvymiQv" xid="top1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cvymiQv"> 
+      <div component="$model/UI2/system/components/justep/titleBar/titleBar" class="x-titlebar cvymiQv" data-bind="component:{name:'$model/UI2/system/components/justep/titleBar/titleBar'}" data-config="{&quot;title&quot;:&quot;工作报工&quot;}" __cid="cvymiQv"> 
+        <div class="x-titlebar-left cvymiQv" __cid="cvymiQv"> 
+          <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-only-icon cvymiQv" xid="backBtn" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:{operation:'window.close'}" data-config="{&quot;icon&quot;:&quot;icon-chevron-left&quot;,&quot;label&quot;:&quot;&quot;}" __cid="cvymiQv"> 
+            <i class="icon-chevron-left cvymiQv" __cid="cvymiQv"/>  
+            <span __cid="cvymiQv" class="cvymiQv"/> 
+          </a> 
+        </div>  
+        <div class="x-titlebar-title cvymiQv" __cid="cvymiQv">工作报工</div>  
+        <div class="x-titlebar-right  cvymiQv" __cid="cvymiQv">
+          <div class="empty cvymiQv" __cid="cvymiQv"/>
+          <a component="$model/UI2/system/components/justep/button/button" class="btn btn-default cvymiQv" xid="button1" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:button1Click" data-config="{&quot;label&quot;:&quot;报工信息&quot;}" __cid="cvymiQv"> 
+            <i xid="i1" __cid="cvymiQv" class="cvymiQv"/>  
+            <span xid="span1" __cid="cvymiQv" class="cvymiQv">报工信息</span>
+          </a>
+        </div> 
+      </div> 
+    </div>  
+    <div class="x-panel-content  x-scroll-view cvymiQv" xid="content1" _xid="C74B5840F65000012FA6C379EC004FF0" style="bottom: 0px;" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cvymiQv">
+      <div class="x-scroll cvymiQv" component="$model/UI2/system/components/justep/scrollView/scrollView" xid="scrollView2" data-bind="component:{name:'$model/UI2/system/components/justep/scrollView/scrollView'}" __cid="cvymiQv"> 
+        <div class="x-content-center x-pull-down container cvymiQv" xid="div4" __cid="cvymiQv"> 
+          <i class="x-pull-down-img glyphicon x-icon-pull-down cvymiQv" xid="i3" __cid="cvymiQv"/>  
+          <span class="x-pull-down-label cvymiQv" xid="span4" __cid="cvymiQv">下拉刷新...</span>
+        </div>  
+        <div xid="div5" __cid="cvymiQv" class="cvymiQv"> 
+          <div component="$model/UI2/system/components/justep/list/list" class="x-list x-cards cvymiQv" xid="list2" data-bind="component:{name:'$model/UI2/system/components/justep/list/list'}" data-config="{&quot;data&quot;:&quot;BgData&quot;}" __cid="cvymiQv"> 
+            <ul class="x-list-template x-min-height list-group hide cvymiQv" xid="listTemplateUl2" componentname="$UI/system/components/justep/list/list#listTemplateUl" id="undefined_listTemplateUl2" bind-foreach="{data:$model.foreach_list2($element),afterRender:$model.foreach_afterRender_list2.bind($model,$element)}" __cid="cvymiQv"> 
+              <li xid="li2" class="x-min-height list-group-item cvymiQv" componentname="li(html)" __cid="cvymiQv"> 
+                <div component="$model/UI2/system/components/justep/row/row" class="x-row cvymiQv" xid="row2" style="border-bottom-style:dotted;border-color:#000000 #000000 #000000 #000000;border-width:2px 2px 2px 2px;" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cvymiQv"> 
+                  <div class="x-col cvymiQv" xid="col4" __cid="cvymiQv"> 
+                    <div component="$model/UI2/system/components/justep/output/output" class="x-output cvymiQv" xid="output6" style="font-size:17px;font-weight:lighter;color:#000000;" data-bind="component:{ref:ref(&quot;bgname&quot;),name:'$model/UI2/system/components/justep/output/output'}" __cid="cvymiQv"/>
+                  </div>  
+                  <div class="x-col cvymiQv" xid="col5" __cid="cvymiQv"> 
+                    <div component="$model/UI2/system/components/justep/output/output" class="x-output cvymiQv" xid="output7" data-bind="component:{ref:ref(&quot;bgtime&quot;),name:'$model/UI2/system/components/justep/output/output'}" __cid="cvymiQv"/>
+                  </div> 
+                </div>  
+                <div component="$model/UI2/system/components/justep/row/row" class="x-row cvymiQv" xid="row3" style="border-bottom-style:solid;border-width:15px 15px 15px 15px;border-color:#C0C0C0 #C0C0C0 #C0C0C0 #C0C0C0;height:56px;" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cvymiQv"> 
+                  <div class="x-col cvymiQv" xid="col7" __cid="cvymiQv"> 
+                    <div component="$model/UI2/system/components/justep/output/output" class="x-output cvymiQv" xid="output8" style="font-size:17px;font-weight:lighter;color:#000000;" data-bind="component:{ref:ref(&quot;bgbiaoti&quot;),name:'$model/UI2/system/components/justep/output/output'}" __cid="cvymiQv"/>
+                  </div> 
+                </div> 
+              </li> 
+            </ul> 
+          </div> 
+        </div>  
+        <div class="x-content-center x-pull-up cvymiQv" xid="div6" __cid="cvymiQv"> 
+          <span class="x-pull-up-label cvymiQv" xid="span5" __cid="cvymiQv">加载更多...</span>
+        </div> 
+      </div>
+    </div>  
+    <style __cid="cvymiQv" class="cvymiQv">.x-panel.p23d7dbf6cf0c4fc8839e0dd6b2e7b456-iosstatusbar &gt;.x-panel-top {height: 48px;}.x-panel.p23d7dbf6cf0c4fc8839e0dd6b2e7b456-iosstatusbar &gt;.x-panel-content { top: 48px;bottom: nullpx;}.x-panel.p23d7dbf6cf0c4fc8839e0dd6b2e7b456-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.p23d7dbf6cf0c4fc8839e0dd6b2e7b456-iosstatusbar &gt;.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.p23d7dbf6cf0c4fc8839e0dd6b2e7b456-iosstatusbar &gt;.x-panel-top {height: 68px;}.iosstatusbar .x-panel.p23d7dbf6cf0c4fc8839e0dd6b2e7b456-iosstatusbar &gt;.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.p23d7dbf6cf0c4fc8839e0dd6b2e7b456-iosstatusbar &gt;.x-panel-content { top: 68px;}.iosstatusbar .x-panel .x-panel-content .x-panel.p23d7dbf6cf0c4fc8839e0dd6b2e7b456-iosstatusbar &gt;.x-panel-top {height: 48px;}.iosstatusbar .x-panel .x-panel-content .x-panel.p23d7dbf6cf0c4fc8839e0dd6b2e7b456-iosstatusbar &gt;.x-panel-content {top: 48px;}</style>
+  </div> 
+</div>

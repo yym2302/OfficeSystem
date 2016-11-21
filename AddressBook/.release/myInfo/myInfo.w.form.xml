@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<div xmlns="http://www.w3.org/1999/xhtml" component="$model/UI2/system/components/justep/window/window" design="device:m;" xid="window" class="window cqmAnqy" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __cid="cqmAnqy" components="$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/button/button,$model/UI2/system/components/justep/input/input,$model/UI2/system/components/justep/titleBar/titleBar,$model/UI2/system/components/justep/panel/child,$model/UI2/system/components/justep/window/window,$model/UI2/system/components/justep/labelEdit/labelEdit,$model/UI2/system/components/justep/panel/panel,">
+  <xhtml:style xmlns:xhtml="http://www.w3.org/1999/xhtml">.img1.cqmAnqy{width: 70px; height: 70px} .o-user.cqmAnqy{height: 150px; background-color: rgb(255, 255, 255)}</xhtml:style>  
+  <div component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:'$model/UI2/system/components/justep/model/model'}" __cid="cqmAnqy" class="cqmAnqy"></div>  
+  <div component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full pcNZJJvu-iosstatusbar cqmAnqy" xid="panel1" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="cqmAnqy"> 
+    <div class="x-panel-top cqmAnqy" xid="top1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cqmAnqy"> 
+      <div component="$model/UI2/system/components/justep/titleBar/titleBar" class="x-titlebar cqmAnqy" data-bind="component:{name:'$model/UI2/system/components/justep/titleBar/titleBar'}" data-config="{&quot;title&quot;:&quot;我的信息&quot;}" __cid="cqmAnqy"> 
+        <div class="x-titlebar-left cqmAnqy" __cid="cqmAnqy"> 
+          <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-only-icon cqmAnqy" xid="backBtn" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:{operation:'window.close'}" data-config="{&quot;icon&quot;:&quot;icon-chevron-left&quot;,&quot;label&quot;:&quot;&quot;}" __cid="cqmAnqy"> 
+            <i class="icon-chevron-left cqmAnqy" __cid="cqmAnqy"/>  
+            <span __cid="cqmAnqy" class="cqmAnqy"/> 
+          </a> 
+        </div>  
+        <div class="x-titlebar-title cqmAnqy" __cid="cqmAnqy">我的信息</div>  
+        <div class="x-titlebar-right  cqmAnqy" __cid="cqmAnqy">
+          <div class="empty cqmAnqy" __cid="cqmAnqy"/>
+          <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-only-label cqmAnqy" xid="saveBtn" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:saveBtnClick" data-config="{&quot;label&quot;:&quot;保存&quot;}" __cid="cqmAnqy"> 
+            <i xid="i1" __cid="cqmAnqy" class="cqmAnqy"/>  
+            <span xid="span1" __cid="cqmAnqy" class="cqmAnqy">保存</span>
+          </a>
+        </div> 
+      </div> 
+    </div>  
+    <div class="x-panel-content cqmAnqy" xid="content1" _xid="C74B11EBE2200001497D188E1640FB80" style="bottom:0px;margin-bottom:60px;" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cqmAnqy"> 
+      <div xid="div3" class="text-center o-user cqmAnqy" style="margin-bottom:20px;" __cid="cqmAnqy"> 
+        <div xid="div5" style="height:49px;" __cid="cqmAnqy" class="cqmAnqy"/>
+        <img alt="" xid="image1" class="img1 cqmAnqy" src="$model/UI2/Taoism/img/round.png" style="width:93px;height:87px;margin-bottom:50px;" __cid="cqmAnqy"/> 
+      </div>  
+      <div component="$model/UI2/system/components/justep/labelEdit/labelEdit" class="x-label-edit x-label30 cqmAnqy" xid="labelEdit2" data-bind="component:{name:'$model/UI2/system/components/justep/labelEdit/labelEdit'}" __cid="cqmAnqy"> 
+        <label class="x-label cqmAnqy" xid="label2" style="text-align:center;" __cid="cqmAnqy">姓名：</label>  
+        <input component="$model/UI2/system/components/justep/input/input" class="form-control x-edit cqmAnqy" xid="nameLabel" style="margin-right:100px;border-style:inset inset inset inset;" data-bind="component:{name:'$model/UI2/system/components/justep/input/input'}" __cid="cqmAnqy"/>
+      </div>  
+      <div component="$model/UI2/system/components/justep/labelEdit/labelEdit" class="x-label-edit x-label30 cqmAnqy" xid="labelEdit13" data-bind="component:{name:'$model/UI2/system/components/justep/labelEdit/labelEdit'}" __cid="cqmAnqy"> 
+        <label class="x-label cqmAnqy" xid="label13" style="text-align:center;" __cid="cqmAnqy">职务：</label>  
+        <input component="$model/UI2/system/components/justep/input/input" class="form-control x-edit cqmAnqy" xid="majorLabel" style="margin-right:100px;border-style:inset inset inset inset;" data-bind="component:{name:'$model/UI2/system/components/justep/input/input'}" __cid="cqmAnqy"/>
+      </div>  
+      <div component="$model/UI2/system/components/justep/labelEdit/labelEdit" class="x-label-edit x-label30 cqmAnqy" xid="labelEdit14" data-bind="component:{name:'$model/UI2/system/components/justep/labelEdit/labelEdit'}" __cid="cqmAnqy"> 
+        <label class="x-label cqmAnqy" xid="label14" style="text-align:center;" __cid="cqmAnqy">手机：</label>  
+        <input component="$model/UI2/system/components/justep/input/input" class="form-control x-edit cqmAnqy" xid="telLabel" style="margin-right:100px;border-style:inset inset inset inset;" data-bind="component:{name:'$model/UI2/system/components/justep/input/input'}" __cid="cqmAnqy"/>
+      </div>  
+      <div component="$model/UI2/system/components/justep/labelEdit/labelEdit" class="x-label-edit x-label30 cqmAnqy" xid="labelEdit15" data-bind="component:{name:'$model/UI2/system/components/justep/labelEdit/labelEdit'}" __cid="cqmAnqy"> 
+        <label class="x-label cqmAnqy" xid="label15" style="text-align:center;" __cid="cqmAnqy">邮箱：</label>  
+        <input component="$model/UI2/system/components/justep/input/input" class="form-control x-edit cqmAnqy" xid="emailLabel" style="margin-right:100px;border-style:inset inset inset inset;" data-bind="component:{name:'$model/UI2/system/components/justep/input/input'}" __cid="cqmAnqy"/>
+      </div>
+    </div>  
+    <style __cid="cqmAnqy" class="cqmAnqy">.x-panel.pcNZJJvu-iosstatusbar &gt;.x-panel-top {height: 48px;}.x-panel.pcNZJJvu-iosstatusbar &gt;.x-panel-content { top: 48px;bottom: nullpx;}.x-panel.pcNZJJvu-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.pcNZJJvu-iosstatusbar &gt;.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pcNZJJvu-iosstatusbar &gt;.x-panel-top {height: 68px;}.iosstatusbar .x-panel.pcNZJJvu-iosstatusbar &gt;.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pcNZJJvu-iosstatusbar &gt;.x-panel-content { top: 68px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pcNZJJvu-iosstatusbar &gt;.x-panel-top {height: 48px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pcNZJJvu-iosstatusbar &gt;.x-panel-content {top: 48px;}</style>
+  </div> 
+</div>

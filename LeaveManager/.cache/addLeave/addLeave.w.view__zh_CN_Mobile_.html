@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<div xmlns="http://www.w3.org/1999/xhtml" component="$model/UI2/system/components/justep/window/window" design="device:m;" xid="window" class="window cvmaQjq" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __cid="cvmaQjq" components="$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/button/button,$model/UI2/system/components/justep/input/input,$model/UI2/system/components/justep/select/select,$model/UI2/system/components/justep/titleBar/titleBar,$model/UI2/system/components/justep/panel/child,$model/UI2/system/components/justep/data/data,$model/UI2/system/components/justep/window/window,$model/UI2/system/components/justep/labelEdit/labelEdit,$model/UI2/system/components/justep/panel/panel,">  
+  <style xmlns="" xmlns:xhtml="http://www.w3.org/1999/xhtml">null</style>  
+  <div xmlns="" component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:'$model/UI2/system/components/justep/model/model'}" __cid="cvmaQjq" class="cvmaQjq"/>  
+  <div xmlns="" component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full p19a998fa0a1c4aeb90c31c4bfb71889f-iosstatusbar cvmaQjq" xid="panel1" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="cvmaQjq"> 
+    <div class="x-panel-top cvmaQjq" xid="top1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cvmaQjq"> 
+      <div component="$model/UI2/system/components/justep/titleBar/titleBar" class="x-titlebar cvmaQjq" data-bind="component:{name:'$model/UI2/system/components/justep/titleBar/titleBar'}" data-config="{&quot;title&quot;:&quot;新增请假&quot;}" __cid="cvmaQjq"> 
+        <div class="x-titlebar-left cvmaQjq" __cid="cvmaQjq"> 
+          <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-only-icon cvmaQjq" xid="backBtn" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:{operation:'window.close'}" data-config="{&quot;icon&quot;:&quot;icon-chevron-left&quot;,&quot;label&quot;:&quot;&quot;}" __cid="cvmaQjq"> 
+            <i class="icon-chevron-left cvmaQjq" __cid="cvmaQjq"/>  
+            <span __cid="cvmaQjq" class="cvmaQjq"/> 
+          </a> 
+        </div>  
+        <div class="x-titlebar-title cvmaQjq" __cid="cvmaQjq">新增请假</div>  
+        <div class="x-titlebar-right  cvmaQjq" __cid="cvmaQjq"> 
+          <div class="empty cvmaQjq" __cid="cvmaQjq"/>  
+          <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link cvmaQjq" xid="pushBtn" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:pushBtnClick" data-config="{&quot;label&quot;:&quot;提交&quot;}" __cid="cvmaQjq"> 
+            <i xid="i1" __cid="cvmaQjq" class="cvmaQjq"/>  
+            <span xid="span1" __cid="cvmaQjq" class="cvmaQjq">提交</span> 
+          </a> 
+        </div> 
+      </div> 
+    </div>  
+    <div class="x-panel-content cvmaQjq" xid="content1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cvmaQjq"> 
+      <div component="$model/UI2/system/components/justep/labelEdit/labelEdit" class="x-label-edit x-label30 cvmaQjq" xid="labelEdit1" data-bind="component:{name:'$model/UI2/system/components/justep/labelEdit/labelEdit'}" __cid="cvmaQjq"> 
+        <label class="x-label cvmaQjq" xid="label1" style="text-align:center;" __cid="cvmaQjq">请假人</label>  
+        <input component="$model/UI2/system/components/justep/input/input" class="form-control x-edit cvmaQjq" xid="input1" data-bind="component:{name:'$model/UI2/system/components/justep/input/input'}" __cid="cvmaQjq"/> 
+      </div>  
+      <div component="$model/UI2/system/components/justep/labelEdit/labelEdit" class="x-label-edit x-label30 cvmaQjq" xid="labelEdit2" data-bind="component:{name:'$model/UI2/system/components/justep/labelEdit/labelEdit'}" __cid="cvmaQjq"> 
+        <label class="x-label cvmaQjq" xid="label2" style="text-align:center;" __cid="cvmaQjq">所在部门</label>  
+        <select component="$model/UI2/system/components/justep/select/select" class="form-control x-edit cvmaQjq" xid="select1" data-bind="component:{name:'$model/UI2/system/components/justep/select/select'},options:LeaveData.datas,optionsValue:'fValue',optionsCaption:'请选择部门',optionsText:'fName',optionsAfterRender2:$model.__justep__.selectOptionsAfterRender.bind($model,$element),optionsBeforeRender:$model.__justep__.selectOptionsBeforeRender.bind($model,$element)" __cid="cvmaQjq"/> 
+      </div>  
+      <div component="$model/UI2/system/components/justep/labelEdit/labelEdit" class="x-label-edit x-label30 cvmaQjq" xid="labelEdit3" data-bind="component:{name:'$model/UI2/system/components/justep/labelEdit/labelEdit'}" __cid="cvmaQjq"> 
+        <label class="x-label cvmaQjq" xid="label3" style="text-align:center;" __cid="cvmaQjq">请假开始时间</label>  
+        <input component="$model/UI2/system/components/justep/input/input" class="form-control x-edit cvmaQjq" xid="input2" data-bind="component:{name:'$model/UI2/system/components/justep/input/input'}" __cid="cvmaQjq"/> 
+      </div>  
+      <div component="$model/UI2/system/components/justep/labelEdit/labelEdit" class="x-label-edit x-label30 cvmaQjq" xid="labelEdit4" data-bind="component:{name:'$model/UI2/system/components/justep/labelEdit/labelEdit'}" __cid="cvmaQjq"> 
+        <label class="x-label cvmaQjq" xid="label4" style="text-align:center;" __cid="cvmaQjq">请假结束时间</label>  
+        <input component="$model/UI2/system/components/justep/input/input" class="form-control x-edit cvmaQjq" xid="input3" data-bind="component:{name:'$model/UI2/system/components/justep/input/input'}" __cid="cvmaQjq"/> 
+      </div>  
+      <div component="$model/UI2/system/components/justep/labelEdit/labelEdit" class="x-label-edit x-label30 cvmaQjq" xid="labelEdit5" data-bind="component:{name:'$model/UI2/system/components/justep/labelEdit/labelEdit'}" __cid="cvmaQjq"> 
+        <label class="x-label cvmaQjq" xid="label5" style="text-align:center;" __cid="cvmaQjq">请假事由</label>  
+        <input component="$model/UI2/system/components/justep/input/input" class="form-control x-edit cvmaQjq" xid="input4" data-bind="component:{name:'$model/UI2/system/components/justep/input/input'}" __cid="cvmaQjq"/> 
+      </div>  
+      <div component="$model/UI2/system/components/justep/labelEdit/labelEdit" class="x-label-edit x-label30 cvmaQjq" xid="labelEdit6" data-bind="component:{name:'$model/UI2/system/components/justep/labelEdit/labelEdit'}" __cid="cvmaQjq"> 
+        <label class="x-label cvmaQjq" xid="label6" style="text-align:center;" __cid="cvmaQjq">请假天数</label>  
+        <input component="$model/UI2/system/components/justep/input/input" class="form-control x-edit cvmaQjq" xid="input5" data-bind="component:{name:'$model/UI2/system/components/justep/input/input'}" __cid="cvmaQjq"/> 
+      </div> 
+    </div>  
+    <style __cid="cvmaQjq" class="cvmaQjq">.x-panel.p19a998fa0a1c4aeb90c31c4bfb71889f-iosstatusbar &gt;.x-panel-top {height: 48px;}.x-panel.p19a998fa0a1c4aeb90c31c4bfb71889f-iosstatusbar &gt;.x-panel-content { top: 48px;bottom: nullpx;}.x-panel.p19a998fa0a1c4aeb90c31c4bfb71889f-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.p19a998fa0a1c4aeb90c31c4bfb71889f-iosstatusbar &gt;.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.p19a998fa0a1c4aeb90c31c4bfb71889f-iosstatusbar &gt;.x-panel-top {height: 68px;}.iosstatusbar .x-panel.p19a998fa0a1c4aeb90c31c4bfb71889f-iosstatusbar &gt;.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.p19a998fa0a1c4aeb90c31c4bfb71889f-iosstatusbar &gt;.x-panel-content { top: 68px;}.iosstatusbar .x-panel .x-panel-content .x-panel.p19a998fa0a1c4aeb90c31c4bfb71889f-iosstatusbar &gt;.x-panel-top {height: 48px;}.iosstatusbar .x-panel .x-panel-content .x-panel.p19a998fa0a1c4aeb90c31c4bfb71889f-iosstatusbar &gt;.x-panel-content {top: 48px;}</style> 
+  </div> 
+</div>

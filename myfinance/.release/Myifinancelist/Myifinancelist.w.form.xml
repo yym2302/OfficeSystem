@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<div xmlns="http://www.w3.org/1999/xhtml" component="$model/UI2/system/components/justep/window/window" design="device:m;" xid="window" class="window camiuqe" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __cid="camiuqe" components="$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/button/button,$model/UI2/system/components/justep/titleBar/titleBar,$model/UI2/system/components/justep/panel/child,$model/UI2/system/components/justep/data/data,$model/UI2/system/components/justep/window/window,$model/UI2/system/components/justep/panel/panel,">
+  <xhtml:style xmlns:xhtml="http://www.w3.org/1999/xhtml">null</xhtml:style>  
+  <div component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:'$model/UI2/system/components/justep/model/model'}" __cid="camiuqe" class="camiuqe"></div>  
+  <div component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full p781a83ee39e649e28c929f44020e4420-iosstatusbar camiuqe" xid="panel1" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="camiuqe"> 
+    <div class="x-panel-top camiuqe" xid="top1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="camiuqe"> 
+      <div component="$model/UI2/system/components/justep/titleBar/titleBar" class="x-titlebar camiuqe" data-bind="component:{name:'$model/UI2/system/components/justep/titleBar/titleBar'}" data-config="{&quot;title&quot;:&quot;我的财务&quot;}" __cid="camiuqe"> 
+        <div class="x-titlebar-left camiuqe" __cid="camiuqe"> 
+          <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-only-icon camiuqe" xid="backBtn" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:{operation:'window.close'}" data-config="{&quot;icon&quot;:&quot;icon-chevron-left&quot;,&quot;label&quot;:&quot;&quot;}" __cid="camiuqe"> 
+            <i class="icon-chevron-left camiuqe" __cid="camiuqe"/>  
+            <span __cid="camiuqe" class="camiuqe"/> 
+          </a> 
+        </div>  
+        <div class="x-titlebar-title camiuqe" __cid="camiuqe">我的财务</div>  
+        <div class="x-titlebar-right  camiuqe" __cid="camiuqe">
+          <div class="empty camiuqe" __cid="camiuqe"/>
+        </div> 
+      </div> 
+    </div>  
+    <div class="x-panel-content camiuqe" xid="content1" _xid="C74BB00FF36000017065E85D10C01450" style="bottom: 0px;" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="camiuqe">
+      <div style="height:5%;" xid="div1" __cid="camiuqe" class="camiuqe"/>  
+      <ul class="list-group x-tuniu  camiuqe" xid="ul3" bind-click="applyClick" __cid="camiuqe"> 
+        <li class="list-group-item camiuqe" xid="li5" __cid="camiuqe">我的报销
+          <span class="pull-right text-muted camiuqe" xid="span6" __cid="camiuqe"> 
+            <i xid="i9" class="icon-ios7-arrow-forward camiuqe" __cid="camiuqe"/>
+          </span> 
+        </li> 
+      </ul>  
+      <ul class="list-group x-tuniu  camiuqe" xid="ul1" bind-click="salaryClick" __cid="camiuqe"> 
+        <li class="list-group-item camiuqe" xid="li2" __cid="camiuqe">我的工资
+          <span class="pull-right text-muted camiuqe" xid="span7" __cid="camiuqe"> 
+            <i xid="i4" class="icon-ios7-arrow-forward camiuqe" __cid="camiuqe"/>
+          </span> 
+        </li> 
+      </ul>
+    </div>  
+    <style __cid="camiuqe" class="camiuqe">.x-panel.p781a83ee39e649e28c929f44020e4420-iosstatusbar &gt;.x-panel-top {height: 48px;}.x-panel.p781a83ee39e649e28c929f44020e4420-iosstatusbar &gt;.x-panel-content { top: 48px;bottom: nullpx;}.x-panel.p781a83ee39e649e28c929f44020e4420-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.p781a83ee39e649e28c929f44020e4420-iosstatusbar &gt;.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.p781a83ee39e649e28c929f44020e4420-iosstatusbar &gt;.x-panel-top {height: 68px;}.iosstatusbar .x-panel.p781a83ee39e649e28c929f44020e4420-iosstatusbar &gt;.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.p781a83ee39e649e28c929f44020e4420-iosstatusbar &gt;.x-panel-content { top: 68px;}.iosstatusbar .x-panel .x-panel-content .x-panel.p781a83ee39e649e28c929f44020e4420-iosstatusbar &gt;.x-panel-top {height: 48px;}.iosstatusbar .x-panel .x-panel-content .x-panel.p781a83ee39e649e28c929f44020e4420-iosstatusbar &gt;.x-panel-content {top: 48px;}</style>
+  </div> 
+</div>

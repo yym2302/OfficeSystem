@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<div xmlns="http://www.w3.org/1999/xhtml" xid="window" class="window cee6rIv" component="$model/UI2/system/components/justep/window/window" design="device:m;" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __cid="cee6rIv" components="$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/button/button,$model/UI2/system/components/justep/scrollView/scrollView,$model/UI2/system/components/justep/list/list,$model/UI2/system/components/justep/output/output,$model/UI2/system/components/justep/titleBar/titleBar,$model/UI2/system/components/justep/panel/child,$model/UI2/system/components/justep/data/data,$model/UI2/system/components/justep/window/window,$model/UI2/system/components/justep/panel/panel,">  
+  <div xmlns="" component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:'$model/UI2/system/components/justep/model/model'}" __cid="cee6rIv" class="cee6rIv"/>  
+  <div xmlns="" component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full p5647048cf42f4d66962863cad9f6252b-iosstatusbar cee6rIv" xid="panel1" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="cee6rIv"> 
+    <div class="x-panel-top cee6rIv" xid="top1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cee6rIv"> 
+      <div component="$model/UI2/system/components/justep/titleBar/titleBar" class="x-titlebar cee6rIv" xid="titleBar1" data-bind="component:{name:'$model/UI2/system/components/justep/titleBar/titleBar'}" data-config="{&quot;title&quot;:&quot;员工通讯录&quot;}" __cid="cee6rIv"> 
+        <div class="x-titlebar-left cee6rIv" xid="left1" __cid="cee6rIv"> 
+          <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-only-icon cee6rIv" xid="backBtn" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:{&quot;operation&quot;:&quot;window.close&quot;}" data-config="{&quot;icon&quot;:&quot;icon-chevron-left&quot;}" __cid="cee6rIv"> 
+            <i xid="i2" class="icon-chevron-left cee6rIv" __cid="cee6rIv"/>  
+            <span xid="span2" __cid="cee6rIv" class="cee6rIv"/> 
+          </a> 
+        </div>  
+        <div class="x-titlebar-title cee6rIv" xid="title1" __cid="cee6rIv">员工通讯录</div>  
+        <div class="x-titlebar-right  cee6rIv" xid="right1" __cid="cee6rIv"> 
+          <div class="empty cee6rIv" __cid="cee6rIv"/>  
+          <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-only-label cee6rIv" xid="UpdateBtn" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:UpdateBtnClick" data-config="{&quot;label&quot;:&quot;我的信息&quot;}" __cid="cee6rIv"> 
+            <i xid="i1" __cid="cee6rIv" class="cee6rIv"/>  
+            <span xid="span1" __cid="cee6rIv" class="cee6rIv">我的信息</span> 
+          </a> 
+        </div> 
+      </div> 
+    </div>  
+    <div class="x-panel-content  x-scroll-view cee6rIv" xid="content1" _xid="C74B0F2F0770000125E7C9F014106960" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cee6rIv"> 
+      <div class="x-scroll cee6rIv" component="$model/UI2/system/components/justep/scrollView/scrollView" xid="scrollView1" data-bind="component:{name:'$model/UI2/system/components/justep/scrollView/scrollView'}" __cid="cee6rIv"> 
+        <div class="x-content-center x-pull-down container cee6rIv" xid="div1" __cid="cee6rIv"> 
+          <i class="x-pull-down-img glyphicon x-icon-pull-down cee6rIv" xid="i3" __cid="cee6rIv"/>  
+          <span class="x-pull-down-label cee6rIv" xid="span3" __cid="cee6rIv">下拉刷新...</span> 
+        </div>  
+        <div class="x-scroll-content cee6rIv" xid="div2" __cid="cee6rIv"> 
+          <div component="$model/UI2/system/components/justep/list/list" class="x-list x-cards cee6rIv" xid="list1" data-bind="component:{name:'$model/UI2/system/components/justep/list/list'}" data-config="{&quot;data&quot;:&quot;BwlData&quot;}" __cid="cee6rIv"> 
+            <ul class="x-list-template list-group hide cee6rIv" xid="listTemplateUl1" __cid="cee6rIv" data-bind="foreach:{data:$model.foreach_list1($element),afterRender:$model.foreach_afterRender_list1.bind($model,$element)}"> 
+              <li xid="li1" class="list-group-item cee6rIv" __cid="cee6rIv"> 
+                <div xid="div4" class="media cee6rIv" style="width:595px;" __cid="cee6rIv"> 
+                  <div xid="div5" class="media-body cee6rIv" style="width:101px;" __cid="cee6rIv"> 
+                    <img src="" alt="" xid="image2" style="width:99px;height:105px;" __cid="cee6rIv" class="cee6rIv" data-bind="attr:{src:$model.getImgUrl( val(&quot;portrait&quot;))}"/> 
+                  </div>  
+                  <div xid="div6" class="media-left cee6rIv" style="width:127px;" __cid="cee6rIv"> 
+                    <div component="$model/UI2/system/components/justep/output/output" class="x-output cee6rIv" xid="output4" data-bind="component:{ref:ref(&quot;name&quot;),name:'$model/UI2/system/components/justep/output/output'}" __cid="cee6rIv"/>  
+                    <div component="$model/UI2/system/components/justep/output/output" class="x-output cee6rIv" xid="output5" data-bind="component:{ref:ref(&quot;position&quot;),name:'$model/UI2/system/components/justep/output/output'}" __cid="cee6rIv"/>  
+                    <div component="$model/UI2/system/components/justep/output/output" class="x-output cee6rIv" xid="output6" data-bind="component:{ref:ref(&quot;phone&quot;),name:'$model/UI2/system/components/justep/output/output'}" __cid="cee6rIv"/> 
+                  </div> 
+                </div> 
+              </li> 
+            </ul> 
+          </div> 
+        </div>  
+        <div class="x-content-center x-pull-up cee6rIv" xid="div3" __cid="cee6rIv"> 
+          <span class="x-pull-up-label cee6rIv" xid="span3" __cid="cee6rIv">加载更多...</span> 
+        </div> 
+      </div> 
+    </div>  
+    <style __cid="cee6rIv" class="cee6rIv">.x-panel.p5647048cf42f4d66962863cad9f6252b-iosstatusbar &gt;.x-panel-top {height: 48px;}.x-panel.p5647048cf42f4d66962863cad9f6252b-iosstatusbar &gt;.x-panel-content { top: 48px;bottom: nullpx;}.x-panel.p5647048cf42f4d66962863cad9f6252b-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.p5647048cf42f4d66962863cad9f6252b-iosstatusbar &gt;.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.p5647048cf42f4d66962863cad9f6252b-iosstatusbar &gt;.x-panel-top {height: 68px;}.iosstatusbar .x-panel.p5647048cf42f4d66962863cad9f6252b-iosstatusbar &gt;.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.p5647048cf42f4d66962863cad9f6252b-iosstatusbar &gt;.x-panel-content { top: 68px;}.iosstatusbar .x-panel .x-panel-content .x-panel.p5647048cf42f4d66962863cad9f6252b-iosstatusbar &gt;.x-panel-top {height: 48px;}.iosstatusbar .x-panel .x-panel-content .x-panel.p5647048cf42f4d66962863cad9f6252b-iosstatusbar &gt;.x-panel-content {top: 48px;}</style> 
+  </div> 
+</div>

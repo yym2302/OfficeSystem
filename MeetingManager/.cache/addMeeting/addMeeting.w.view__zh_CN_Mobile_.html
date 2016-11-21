@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<div xmlns="http://www.w3.org/1999/xhtml" component="$model/UI2/system/components/justep/window/window" design="device:m;" xid="window" class="window cmMnMje" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __cid="cmMnMje" components="$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/button/button,$model/UI2/system/components/justep/input/input,$model/UI2/system/components/justep/select/select,$model/UI2/system/components/justep/titleBar/titleBar,$model/UI2/system/components/justep/panel/child,$model/UI2/system/components/justep/data/data,$model/UI2/system/components/justep/window/window,$model/UI2/system/components/justep/labelEdit/labelEdit,$model/UI2/system/components/justep/textarea/textarea,$model/UI2/system/components/justep/panel/panel,">  
+  <style xmlns="" xmlns:xhtml="http://www.w3.org/1999/xhtml">null</style>  
+  <div xmlns="" component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:'$model/UI2/system/components/justep/model/model'}" __cid="cmMnMje" class="cmMnMje"/>  
+  <div xmlns="" component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full p794479c279d5461ba26144b092cd6528-iosstatusbar cmMnMje" xid="panel1" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="cmMnMje"> 
+    <div class="x-panel-top cmMnMje" xid="top1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cmMnMje"> 
+      <div component="$model/UI2/system/components/justep/titleBar/titleBar" class="x-titlebar cmMnMje" data-bind="component:{name:'$model/UI2/system/components/justep/titleBar/titleBar'}" data-config="{&quot;title&quot;:&quot;新增会议&quot;}" __cid="cmMnMje"> 
+        <div class="x-titlebar-left cmMnMje" __cid="cmMnMje"> 
+          <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-only-icon cmMnMje" xid="backBtn" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:{operation:'window.close'}" data-config="{&quot;icon&quot;:&quot;icon-chevron-left&quot;,&quot;label&quot;:&quot;&quot;}" __cid="cmMnMje"> 
+            <i class="icon-chevron-left cmMnMje" __cid="cmMnMje"/>  
+            <span __cid="cmMnMje" class="cmMnMje"/> 
+          </a> 
+        </div>  
+        <div class="x-titlebar-title cmMnMje" __cid="cmMnMje">新增会议</div>  
+        <div class="x-titlebar-right  cmMnMje" __cid="cmMnMje"> 
+          <div class="empty cmMnMje" __cid="cmMnMje"/>  
+          <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-only-label cmMnMje" xid="saveBtn" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:saveBtnClick" data-config="{&quot;label&quot;:&quot;保存&quot;}" __cid="cmMnMje"> 
+            <i xid="i1" __cid="cmMnMje" class="cmMnMje"/>  
+            <span xid="span1" __cid="cmMnMje" class="cmMnMje">保存</span> 
+          </a> 
+        </div> 
+      </div> 
+    </div>  
+    <div class="x-panel-content cmMnMje" xid="content1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cmMnMje"> 
+      <div component="$model/UI2/system/components/justep/labelEdit/labelEdit" class="x-label-edit x-label30 cmMnMje" xid="labelEdit1" data-bind="component:{name:'$model/UI2/system/components/justep/labelEdit/labelEdit'}" __cid="cmMnMje"> 
+        <label class="x-label cmMnMje" xid="label1" style="text-align:center;" __cid="cmMnMje">会议标题</label>  
+        <input component="$model/UI2/system/components/justep/input/input" class="form-control x-edit cmMnMje" xid="input1" data-bind="component:{name:'$model/UI2/system/components/justep/input/input'}" __cid="cmMnMje"/> 
+      </div>  
+      <div component="$model/UI2/system/components/justep/labelEdit/labelEdit" class="x-label-edit x-label30 cmMnMje" xid="labelEdit2" data-bind="component:{name:'$model/UI2/system/components/justep/labelEdit/labelEdit'}" __cid="cmMnMje"> 
+        <label class="x-label cmMnMje" xid="label2" style="text-align:center;" __cid="cmMnMje">会议类型</label>  
+        <select component="$model/UI2/system/components/justep/select/select" class="form-control x-edit cmMnMje" xid="select1" data-bind="component:{name:'$model/UI2/system/components/justep/select/select'},options:typeData.datas,optionsValue:'fValue',optionsCaption:'请选择类型',optionsText:'fName',optionsAfterRender2:$model.__justep__.selectOptionsAfterRender.bind($model,$element),optionsBeforeRender:$model.__justep__.selectOptionsBeforeRender.bind($model,$element)" __cid="cmMnMje"/> 
+      </div>  
+      <div component="$model/UI2/system/components/justep/labelEdit/labelEdit" class="x-label-edit x-label30 cmMnMje" xid="labelEdit3" data-bind="component:{name:'$model/UI2/system/components/justep/labelEdit/labelEdit'}" __cid="cmMnMje"> 
+        <label class="x-label cmMnMje" xid="label3" style="text-align:center;" __cid="cmMnMje">主持人</label>  
+        <input component="$model/UI2/system/components/justep/input/input" class="form-control x-edit cmMnMje" xid="input2" data-bind="component:{name:'$model/UI2/system/components/justep/input/input'}" __cid="cmMnMje"/> 
+      </div>  
+      <div component="$model/UI2/system/components/justep/labelEdit/labelEdit" class="x-label-edit x-label30 cmMnMje" xid="labelEdit4" data-bind="component:{name:'$model/UI2/system/components/justep/labelEdit/labelEdit'}" __cid="cmMnMje"> 
+        <label class="x-label cmMnMje" xid="label4" style="text-align:center;" __cid="cmMnMje">会议时间</label>  
+        <input component="$model/UI2/system/components/justep/input/input" class="form-control x-edit cmMnMje" xid="input3" data-bind="component:{name:'$model/UI2/system/components/justep/input/input'}" __cid="cmMnMje"/> 
+      </div>  
+      <div component="$model/UI2/system/components/justep/labelEdit/labelEdit" class="x-label-edit x-label30 cmMnMje" xid="labelEdit5" data-bind="component:{name:'$model/UI2/system/components/justep/labelEdit/labelEdit'}" __cid="cmMnMje"> 
+        <label class="x-label cmMnMje" xid="label5" style="text-align:center;" __cid="cmMnMje">所属项目</label>  
+        <select component="$model/UI2/system/components/justep/select/select" class="form-control x-edit cmMnMje" xid="select2" data-bind="component:{name:'$model/UI2/system/components/justep/select/select'},options:projeData.datas,optionsCaption:'请选择项目',optionsValue:'fValue',optionsText:'fName',optionsAfterRender2:$model.__justep__.selectOptionsAfterRender.bind($model,$element),optionsBeforeRender:$model.__justep__.selectOptionsBeforeRender.bind($model,$element)" data-config="{&quot;optionsAutoLoad&quot;:true}" __cid="cmMnMje"/> 
+      </div>  
+      <div component="$model/UI2/system/components/justep/labelEdit/labelEdit" class="x-label-edit x-label30 cmMnMje" xid="labelEdit6" data-bind="component:{name:'$model/UI2/system/components/justep/labelEdit/labelEdit'}" __cid="cmMnMje"> 
+        <label class="x-label cmMnMje" xid="label6" style="text-align:center;" __cid="cmMnMje">会议目的</label>  
+        <input component="$model/UI2/system/components/justep/input/input" class="form-control x-edit cmMnMje" xid="input4" data-bind="component:{name:'$model/UI2/system/components/justep/input/input'}" __cid="cmMnMje"/> 
+      </div>  
+      <div component="$model/UI2/system/components/justep/labelEdit/labelEdit" class="x-label-edit x-label30 cmMnMje" xid="labelEdit7" data-bind="component:{name:'$model/UI2/system/components/justep/labelEdit/labelEdit'}" __cid="cmMnMje"> 
+        <label class="x-label cmMnMje" xid="label7" style="text-align:center;" __cid="cmMnMje">会议记录</label>  
+        <textarea component="$model/UI2/system/components/justep/textarea/textarea" class="form-control x-edit cmMnMje" xid="textarea1" data-bind="component:{name:'$model/UI2/system/components/justep/textarea/textarea'}" __cid="cmMnMje"/> 
+      </div> 
+    </div>  
+    <style __cid="cmMnMje" class="cmMnMje">.x-panel.p794479c279d5461ba26144b092cd6528-iosstatusbar &gt;.x-panel-top {height: 48px;}.x-panel.p794479c279d5461ba26144b092cd6528-iosstatusbar &gt;.x-panel-content { top: 48px;bottom: nullpx;}.x-panel.p794479c279d5461ba26144b092cd6528-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.p794479c279d5461ba26144b092cd6528-iosstatusbar &gt;.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.p794479c279d5461ba26144b092cd6528-iosstatusbar &gt;.x-panel-top {height: 68px;}.iosstatusbar .x-panel.p794479c279d5461ba26144b092cd6528-iosstatusbar &gt;.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.p794479c279d5461ba26144b092cd6528-iosstatusbar &gt;.x-panel-content { top: 68px;}.iosstatusbar .x-panel .x-panel-content .x-panel.p794479c279d5461ba26144b092cd6528-iosstatusbar &gt;.x-panel-top {height: 48px;}.iosstatusbar .x-panel .x-panel-content .x-panel.p794479c279d5461ba26144b092cd6528-iosstatusbar &gt;.x-panel-content {top: 48px;}</style> 
+  </div> 
+</div>

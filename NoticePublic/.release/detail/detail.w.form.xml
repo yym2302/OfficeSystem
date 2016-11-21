@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<div xmlns="http://www.w3.org/1999/xhtml" component="$model/UI2/system/components/justep/window/window" design="device:m;" xid="window" class="window cuiEnea" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __cid="cuiEnea" components="$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/button/button,$model/UI2/system/components/justep/row/row,$model/UI2/system/components/justep/output/output,$model/UI2/system/components/justep/titleBar/titleBar,$model/UI2/system/components/justep/panel/child,$model/UI2/system/components/justep/window/window,$model/UI2/system/components/justep/panel/panel,">
+  <xhtml:style xmlns:xhtml="http://www.w3.org/1999/xhtml">null</xhtml:style>  
+  <div component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:'$model/UI2/system/components/justep/model/model'}" data-events="onParamsReceive:modelParamsReceive" __cid="cuiEnea" class="cuiEnea"></div>  
+  <div component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full pc7JzuQj-iosstatusbar cuiEnea" xid="panel1" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="cuiEnea"> 
+    <div class="x-panel-top cuiEnea" xid="top1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cuiEnea"> 
+      <div component="$model/UI2/system/components/justep/titleBar/titleBar" class="x-titlebar cuiEnea" data-bind="component:{name:'$model/UI2/system/components/justep/titleBar/titleBar'}" data-config="{&quot;title&quot;:&quot;具体通告&quot;}" __cid="cuiEnea"> 
+        <div class="x-titlebar-left cuiEnea" __cid="cuiEnea"> 
+          <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-only-icon cuiEnea" xid="backBtn" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:{operation:'window.close'}" data-config="{&quot;icon&quot;:&quot;icon-chevron-left&quot;,&quot;label&quot;:&quot;&quot;}" __cid="cuiEnea"> 
+            <i class="icon-chevron-left cuiEnea" __cid="cuiEnea"/>  
+            <span __cid="cuiEnea" class="cuiEnea"/> 
+          </a> 
+        </div>  
+        <div class="x-titlebar-title cuiEnea" __cid="cuiEnea">具体通告</div>  
+        <div class="x-titlebar-right  cuiEnea" __cid="cuiEnea">
+          <div class="empty cuiEnea" __cid="cuiEnea"/>
+        </div> 
+      </div> 
+    </div>  
+    <div class="x-panel-content cuiEnea" xid="content1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cuiEnea"> 
+      <div component="$model/UI2/system/components/justep/row/row" class="x-row cuiEnea" xid="row1" style="margin-bottom:45px;margin-top:10px;" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cuiEnea"> 
+        <div class="x-col cuiEnea" xid="col1" style="text-align:center;" __cid="cuiEnea">
+          <div component="$model/UI2/system/components/justep/output/output" class="x-output center-block cuiEnea" xid="output1" style="font-weight:bolder;font-size:20px;color:#000000;cursor:auto;" data-bind="component:{name:'$model/UI2/system/components/justep/output/output'}" __cid="cuiEnea"/>
+        </div> 
+      </div>  
+      <div component="$model/UI2/system/components/justep/row/row" class="x-row cuiEnea" xid="row2" style="margin-bottom:70px;" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cuiEnea"> 
+        <div class="x-col cuiEnea" xid="col4" __cid="cuiEnea"> 
+          <div component="$model/UI2/system/components/justep/output/output" class="x-output cuiEnea" xid="output2" bind-load="output2Load" data-bind="component:{name:'$model/UI2/system/components/justep/output/output'}" __cid="cuiEnea"/>
+        </div> 
+      </div>  
+      <div component="$model/UI2/system/components/justep/row/row" class="x-row cuiEnea" xid="row5" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cuiEnea"> 
+        <div class="x-col cuiEnea" xid="col7" style="text-align:right;" __cid="cuiEnea"> 
+          <div component="$model/UI2/system/components/justep/output/output" class="x-output cuiEnea" xid="output5" bind-load="output5Load" data-bind="component:{name:'$model/UI2/system/components/justep/output/output'}" __cid="cuiEnea"/>
+        </div> 
+      </div>  
+      <div component="$model/UI2/system/components/justep/row/row" class="x-row cuiEnea" xid="row6" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cuiEnea"> 
+        <div class="x-col cuiEnea" xid="col8" style="text-align:right;" __cid="cuiEnea"> 
+          <div component="$model/UI2/system/components/justep/output/output" class="x-output cuiEnea" xid="output6" bind-load="output6Load" data-bind="component:{name:'$model/UI2/system/components/justep/output/output'}" __cid="cuiEnea"/>
+        </div> 
+      </div>
+    </div>  
+    <style __cid="cuiEnea" class="cuiEnea">.x-panel.pc7JzuQj-iosstatusbar &gt;.x-panel-top {height: 48px;}.x-panel.pc7JzuQj-iosstatusbar &gt;.x-panel-content { top: 48px;bottom: nullpx;}.x-panel.pc7JzuQj-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.pc7JzuQj-iosstatusbar &gt;.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pc7JzuQj-iosstatusbar &gt;.x-panel-top {height: 68px;}.iosstatusbar .x-panel.pc7JzuQj-iosstatusbar &gt;.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pc7JzuQj-iosstatusbar &gt;.x-panel-content { top: 68px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pc7JzuQj-iosstatusbar &gt;.x-panel-top {height: 48px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pc7JzuQj-iosstatusbar &gt;.x-panel-content {top: 48px;}</style>
+  </div> 
+</div>

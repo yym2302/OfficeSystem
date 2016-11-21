@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<div xmlns="http://www.w3.org/1999/xhtml" component="$model/UI2/system/components/justep/window/window" design="device:m;" xid="window" class="window cammaUz" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __cid="cammaUz" components="$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/button/button,$model/UI2/system/components/justep/input/input,$model/UI2/system/components/justep/select/radioGroup,$model/UI2/system/components/justep/titleBar/titleBar,$model/UI2/system/components/justep/panel/child,$model/UI2/system/components/justep/button/radio,$model/UI2/system/components/justep/data/data,$model/UI2/system/components/justep/window/window,$model/UI2/system/components/justep/labelEdit/labelEdit,$model/UI2/system/components/justep/panel/panel,">  
+  <style xmlns="" xmlns:xhtml="http://www.w3.org/1999/xhtml">null</style>  
+  <div xmlns="" component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:'$model/UI2/system/components/justep/model/model'}" data-events="onLoad:modelLoad" __cid="cammaUz" class="cammaUz"/>  
+  <div xmlns="" component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full p7465d3034917422cb2ce2fd7cc1bc28b-iosstatusbar cammaUz" xid="panel1" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="cammaUz"> 
+    <div class="x-panel-top cammaUz" xid="top1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cammaUz"> 
+      <div component="$model/UI2/system/components/justep/titleBar/titleBar" class="x-titlebar cammaUz" data-bind="component:{name:'$model/UI2/system/components/justep/titleBar/titleBar'}" data-config="{&quot;title&quot;:&quot;新增报工&quot;}" __cid="cammaUz"> 
+        <div class="x-titlebar-left cammaUz" __cid="cammaUz"> 
+          <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-only-icon cammaUz" xid="backBtn" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:{operation:'window.close'}" data-config="{&quot;icon&quot;:&quot;icon-chevron-left&quot;,&quot;label&quot;:&quot;&quot;}" __cid="cammaUz"> 
+            <i class="icon-chevron-left cammaUz" __cid="cammaUz"/>  
+            <span __cid="cammaUz" class="cammaUz"/> 
+          </a> 
+        </div>  
+        <div class="x-titlebar-title cammaUz" __cid="cammaUz">新增报工</div>  
+        <div class="x-titlebar-right  cammaUz" __cid="cammaUz"> 
+          <div class="empty cammaUz" __cid="cammaUz"/> 
+        </div> 
+      </div> 
+    </div>  
+    <div class="x-panel-content cammaUz" xid="content1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cammaUz"> 
+      <div xid="div4" style="height:27px;" __cid="cammaUz" class="cammaUz"/>  
+      <div component="$model/UI2/system/components/justep/labelEdit/labelEdit" class="x-label-edit x-label30 cammaUz" xid="labelEdit8" style="border-bottom-style:ridge;border-bottom-width:2px;height:50px;margin-bottom:30px;" data-bind="component:{name:'$model/UI2/system/components/justep/labelEdit/labelEdit'}" __cid="cammaUz"> 
+        <label class="x-label cammaUz" xid="label8" style="text-align:right;margin-right:30px;" __cid="cammaUz">出勤情况</label>  
+        <span component="$model/UI2/system/components/justep/select/radioGroup" class="x-radios x-edit cammaUz" xid="publicradio" data-bind="component:{name:'$model/UI2/system/components/justep/select/radioGroup'},foreach:{data:chooseData.datas,afterRender:$model.comp($element)['_doUpdate'].bind($model.comp($element))}" data-events="onChange:publicradioChange" __cid="cammaUz"> 
+          <span xmlns:xhtml="http://www.w3.org/1999/xhtml" component="$model/UI2/system/components/justep/button/radio" class="x-radio cammaUz" data-config="{&quot;checked&quot;:false,&quot;disabled&quot;:false}" data-bind="component:{name:'$model/UI2/system/components/justep/button/radio',label:ref(&quot;fName&quot;),value:ref(&quot;fValue&quot;)}" __cid="cammaUz">  
+            <input type="radio" __cid="cammaUz" class="cammaUz"/>  
+            <label __cid="cammaUz" class="cammaUz"/> 
+          </span> 
+        </span> 
+      </div>  
+      <div component="$model/UI2/system/components/justep/labelEdit/labelEdit" class="x-label-edit x-label30 cammaUz" xid="labelEdit1" data-bind="component:{name:'$model/UI2/system/components/justep/labelEdit/labelEdit'}" __cid="cammaUz"> 
+        <label class="x-label cammaUz" xid="label1" style="text-align:center;" __cid="cammaUz">日期：</label>  
+        <input component="$model/UI2/system/components/justep/input/input" class="form-control x-edit cammaUz" xid="input1" style="margin-right:100px;border-style:inset inset inset inset;" data-bind="component:{name:'$model/UI2/system/components/justep/input/input'}" data-config="{&quot;dataType&quot;:&quot;Date&quot;}" __cid="cammaUz"/> 
+      </div>  
+      <div component="$model/UI2/system/components/justep/labelEdit/labelEdit" class="x-label-edit x-label30 cammaUz" xid="labelEdit2" data-bind="component:{name:'$model/UI2/system/components/justep/labelEdit/labelEdit'}" __cid="cammaUz"> 
+        <label class="x-label cammaUz" xid="label2" style="text-align:center;" __cid="cammaUz">工作内容：</label>  
+        <input component="$model/UI2/system/components/justep/input/input" class="form-control x-edit cammaUz" xid="contentid" style="margin-right:100px;border-style:inset inset inset inset;" data-bind="component:{name:'$model/UI2/system/components/justep/input/input'}" __cid="cammaUz"/> 
+      </div>  
+      <div component="$model/UI2/system/components/justep/labelEdit/labelEdit" class="x-label-edit x-label30 cammaUz" xid="labelEdit3" data-bind="component:{name:'$model/UI2/system/components/justep/labelEdit/labelEdit'}" __cid="cammaUz"> 
+        <label class="x-label cammaUz" xid="label3" style="text-align:center;" __cid="cammaUz">工作时间：</label>  
+        <input component="$model/UI2/system/components/justep/input/input" class="form-control x-edit cammaUz" xid="jobtimeId" style="margin-right:100px;border-style:inset inset inset inset;" data-bind="component:{name:'$model/UI2/system/components/justep/input/input'}" __cid="cammaUz"/> 
+      </div>  
+      <div component="$model/UI2/system/components/justep/labelEdit/labelEdit" class="x-label-edit x-label30 cammaUz" xid="labelEdit4" data-bind="component:{name:'$model/UI2/system/components/justep/labelEdit/labelEdit'}" __cid="cammaUz"> 
+        <label class="x-label cammaUz" xid="label4" style="text-align:center;" __cid="cammaUz">所属项目：</label>  
+        <input component="$model/UI2/system/components/justep/input/input" class="form-control x-edit cammaUz" xid="input3" style="margin-right:100px;border-style:inset inset inset inset;" data-bind="component:{name:'$model/UI2/system/components/justep/input/input'}" __cid="cammaUz"/> 
+      </div>  
+      <div component="$model/UI2/system/components/justep/labelEdit/labelEdit" class="x-label-edit x-label30 cammaUz" xid="labelEdit5" style="margin-bottom:20px;" data-bind="component:{name:'$model/UI2/system/components/justep/labelEdit/labelEdit'}" __cid="cammaUz"> 
+        <label class="x-label cammaUz" xid="label5" style="text-align:center;" __cid="cammaUz">加班时间：</label>  
+        <input component="$model/UI2/system/components/justep/input/input" class="form-control x-edit cammaUz" xid="input4" style="margin-right:100px;border-style:inset inset inset inset;" data-bind="component:{name:'$model/UI2/system/components/justep/input/input'}" __cid="cammaUz"/> 
+      </div>  
+      <div xid="div5" style="text-align:center;" __cid="cammaUz" class="cammaUz"> 
+        <a component="$model/UI2/system/components/justep/button/button" class="btn btn-default cammaUz" xid="pushBtn" style="width:105px;text-align:center;" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:pushBtnClick" data-config="{&quot;label&quot;:&quot;提交&quot;}" __cid="cammaUz"> 
+          <i xid="i1" __cid="cammaUz" class="cammaUz"/>  
+          <span xid="span1" __cid="cammaUz" class="cammaUz">提交</span> 
+        </a> 
+      </div> 
+    </div>  
+    <style __cid="cammaUz" class="cammaUz">.x-panel.p7465d3034917422cb2ce2fd7cc1bc28b-iosstatusbar &gt;.x-panel-top {height: 48px;}.x-panel.p7465d3034917422cb2ce2fd7cc1bc28b-iosstatusbar &gt;.x-panel-content { top: 48px;bottom: nullpx;}.x-panel.p7465d3034917422cb2ce2fd7cc1bc28b-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.p7465d3034917422cb2ce2fd7cc1bc28b-iosstatusbar &gt;.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.p7465d3034917422cb2ce2fd7cc1bc28b-iosstatusbar &gt;.x-panel-top {height: 68px;}.iosstatusbar .x-panel.p7465d3034917422cb2ce2fd7cc1bc28b-iosstatusbar &gt;.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.p7465d3034917422cb2ce2fd7cc1bc28b-iosstatusbar &gt;.x-panel-content { top: 68px;}.iosstatusbar .x-panel .x-panel-content .x-panel.p7465d3034917422cb2ce2fd7cc1bc28b-iosstatusbar &gt;.x-panel-top {height: 48px;}.iosstatusbar .x-panel .x-panel-content .x-panel.p7465d3034917422cb2ce2fd7cc1bc28b-iosstatusbar &gt;.x-panel-content {top: 48px;}</style> 
+  </div> 
+</div>

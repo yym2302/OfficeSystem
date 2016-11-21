@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<div xmlns="http://www.w3.org/1999/xhtml" component="$model/UI2/system/components/justep/window/window" design="device:m;" xid="window" class="window cyeyQNn" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __cid="cyeyQNn" components="$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/button/button,$model/UI2/system/components/justep/input/input,$model/UI2/system/components/justep/select/select,$model/UI2/system/components/justep/titleBar/titleBar,$model/UI2/system/components/justep/panel/child,$model/UI2/system/components/justep/data/data,$model/UI2/system/components/justep/window/window,$model/UI2/system/components/justep/labelEdit/labelEdit,$model/UI2/system/components/justep/panel/panel,">
+  <xhtml:style xmlns:xhtml="http://www.w3.org/1999/xhtml">null</xhtml:style>  
+  <div component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:'$model/UI2/system/components/justep/model/model'}" __cid="cyeyQNn" class="cyeyQNn"></div>  
+  <div component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full p684aef679a8f454895de19ffc0984147-iosstatusbar cyeyQNn" xid="panel1" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="cyeyQNn"> 
+    <div class="x-panel-top cyeyQNn" xid="top1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cyeyQNn"> 
+      <div component="$model/UI2/system/components/justep/titleBar/titleBar" class="x-titlebar cyeyQNn" data-bind="component:{name:'$model/UI2/system/components/justep/titleBar/titleBar'}" data-config="{&quot;title&quot;:&quot;新增差旅报销&quot;}" __cid="cyeyQNn"> 
+        <div class="x-titlebar-left cyeyQNn" __cid="cyeyQNn"> 
+          <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-only-icon cyeyQNn" xid="backBtn" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:{operation:'window.close'}" data-config="{&quot;icon&quot;:&quot;icon-chevron-left&quot;,&quot;label&quot;:&quot;&quot;}" __cid="cyeyQNn"> 
+            <i class="icon-chevron-left cyeyQNn" __cid="cyeyQNn"/>  
+            <span __cid="cyeyQNn" class="cyeyQNn"/> 
+          </a> 
+        </div>  
+        <div class="x-titlebar-title cyeyQNn" __cid="cyeyQNn">新增差旅报销</div>  
+        <div class="x-titlebar-right  cyeyQNn" __cid="cyeyQNn">
+          <div class="empty cyeyQNn" __cid="cyeyQNn"/>
+        </div> 
+      </div> 
+    </div>  
+    <div class="x-panel-content cyeyQNn" xid="content1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cyeyQNn">
+      <div xid="div2" style="height:10%;" __cid="cyeyQNn" class="cyeyQNn"/>  
+      <div xid="div1" __cid="cyeyQNn" class="cyeyQNn"> 
+        <div component="$model/UI2/system/components/justep/labelEdit/labelEdit" class="x-label-edit x-label30 cyeyQNn" xid="labelEdit1" data-bind="component:{name:'$model/UI2/system/components/justep/labelEdit/labelEdit'}" __cid="cyeyQNn"> 
+          <label class="x-label cyeyQNn" xid="dateid" style="text-align:center;" __cid="cyeyQNn">报销人：</label>  
+          <input component="$model/UI2/system/components/justep/input/input" class="form-control x-edit cyeyQNn" xid="input1" style="margin-right:100px;border-style:inset inset inset inset;" data-bind="component:{name:'$model/UI2/system/components/justep/input/input'}" __cid="cyeyQNn"/>
+        </div>  
+        <div component="$model/UI2/system/components/justep/labelEdit/labelEdit" class="x-label-edit x-label30 cyeyQNn" xid="labelEdit7" data-bind="component:{name:'$model/UI2/system/components/justep/labelEdit/labelEdit'}" __cid="cyeyQNn"> 
+          <label class="x-label cyeyQNn" xid="sectionid" style="text-align:center;" __cid="cyeyQNn">所属部门：</label>  
+          <select component="$model/UI2/system/components/justep/select/select" class="form-control x-edit cyeyQNn" xid="select1" style="width:396px;margin-right:100px;" bind-options="newData.datas" bind-optionsValue="'address'" bind-optionsCaption="'请选择'" bind-optionsText="'address'" bind-optionsAfterRender2="$model.__justep__.selectOptionsAfterRender.bind($model,$element)" bind-optionsBeforeRender="$model.__justep__.selectOptionsBeforeRender.bind($model,$element)" data-bind="component:{name:'$model/UI2/system/components/justep/select/select'}" __cid="cyeyQNn"/>
+        </div>  
+        <div component="$model/UI2/system/components/justep/labelEdit/labelEdit" class="x-label-edit x-label30 cyeyQNn" xid="labelEdit3" data-bind="component:{name:'$model/UI2/system/components/justep/labelEdit/labelEdit'}" __cid="cyeyQNn"> 
+          <label class="x-label cyeyQNn" style="text-align:center;" xid="leavetimeid" __cid="cyeyQNn">报销事由：</label>  
+          <input component="$model/UI2/system/components/justep/input/input" class="form-control x-edit cyeyQNn" xid="jobtimeId" style="margin-right:100px;border-style:inset inset inset inset;" data-bind="component:{name:'$model/UI2/system/components/justep/input/input'}" __cid="cyeyQNn"/>
+        </div>  
+        <div component="$model/UI2/system/components/justep/labelEdit/labelEdit" class="x-label-edit x-label30 cyeyQNn" xid="labelEdit4" data-bind="component:{name:'$model/UI2/system/components/justep/labelEdit/labelEdit'}" __cid="cyeyQNn"> 
+          <label class="x-label cyeyQNn" xid="leaveid" style="text-align:center;" __cid="cyeyQNn">报销金额：</label>  
+          <input component="$model/UI2/system/components/justep/input/input" class="form-control x-edit cyeyQNn" xid="input3" style="margin-right:100px;border-style:inset inset inset inset;" data-bind="component:{name:'$model/UI2/system/components/justep/input/input'}" __cid="cyeyQNn"/>
+        </div>  
+        <div component="$model/UI2/system/components/justep/labelEdit/labelEdit" class="x-label-edit x-label30 cyeyQNn" xid="labelEdit5" style="margin-bottom:20px;" data-bind="component:{name:'$model/UI2/system/components/justep/labelEdit/labelEdit'}" __cid="cyeyQNn"> 
+          <label class="x-label cyeyQNn" xid="leavecauseid" style="text-align:center;" __cid="cyeyQNn">请假原因：</label>  
+          <input component="$model/UI2/system/components/justep/input/input" class="form-control x-edit cyeyQNn" xid="input4" style="margin-right:100px;border-style:inset inset inset inset;" data-bind="component:{name:'$model/UI2/system/components/justep/input/input'}" __cid="cyeyQNn"/>
+        </div>  
+        <div component="$model/UI2/system/components/justep/labelEdit/labelEdit" class="x-label-edit x-label30 cyeyQNn" xid="labelEdit6" style="margin-bottom:20px;" data-bind="component:{name:'$model/UI2/system/components/justep/labelEdit/labelEdit'}" __cid="cyeyQNn"> 
+          <label class="x-label cyeyQNn" xid="leavedaysid" style="text-align:center;" __cid="cyeyQNn">发票信息：</label>  
+          <input component="$model/UI2/system/components/justep/input/input" class="form-control x-edit cyeyQNn" xid="input2" style="margin-right:100px;border-style:inset inset inset inset;" data-bind="component:{name:'$model/UI2/system/components/justep/input/input'}" __cid="cyeyQNn"/>
+        </div> 
+      </div>  
+      <div xid="div5" style="text-align:center;" __cid="cyeyQNn" class="cyeyQNn"> 
+        <a component="$model/UI2/system/components/justep/button/button" class="btn btn-default cyeyQNn" xid="button3" style="width:72px;" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:newlyClick" data-config="{&quot;label&quot;:&quot;提交&quot;}" __cid="cyeyQNn"> 
+          <i xid="i2" __cid="cyeyQNn" class="cyeyQNn"/>  
+          <span xid="span2" __cid="cyeyQNn" class="cyeyQNn">提交</span>
+        </a> 
+      </div>
+    </div>  
+    <style __cid="cyeyQNn" class="cyeyQNn">.x-panel.p684aef679a8f454895de19ffc0984147-iosstatusbar &gt;.x-panel-top {height: 48px;}.x-panel.p684aef679a8f454895de19ffc0984147-iosstatusbar &gt;.x-panel-content { top: 48px;bottom: nullpx;}.x-panel.p684aef679a8f454895de19ffc0984147-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.p684aef679a8f454895de19ffc0984147-iosstatusbar &gt;.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.p684aef679a8f454895de19ffc0984147-iosstatusbar &gt;.x-panel-top {height: 68px;}.iosstatusbar .x-panel.p684aef679a8f454895de19ffc0984147-iosstatusbar &gt;.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.p684aef679a8f454895de19ffc0984147-iosstatusbar &gt;.x-panel-content { top: 68px;}.iosstatusbar .x-panel .x-panel-content .x-panel.p684aef679a8f454895de19ffc0984147-iosstatusbar &gt;.x-panel-top {height: 48px;}.iosstatusbar .x-panel .x-panel-content .x-panel.p684aef679a8f454895de19ffc0984147-iosstatusbar &gt;.x-panel-content {top: 48px;}</style>
+  </div> 
+</div>
